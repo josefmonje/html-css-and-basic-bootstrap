@@ -2,8 +2,15 @@
 
 ---
 
-I wrote this so I have materials for my trainings. This way, I can continuously improve it and I also don't have to make one everytime or bring anything, for that matter. I'm putting it up on gitbook but I don't want to call it a book yet. 
-This was written for those who are completely unfamiliar with the concepts involved in creating web pages.
+I wrote this so I consistent materials for my trainings. This way, I can also improve it and I also don't have to make one everytime or bring anything with me, for that matter. I'm putting it up on gitbook but I don't want to call it a book yet. 
+
+This was written for those who are completely unfamiliar with the concepts involved in creating web pages. It's made to be as succinct as possible. For a complete reference of each:
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML?redirectlocale=en-US&redirectslug=HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?redirectlocale=en-US&redirectslug=CSS)
+* [Bootstrap](http://getbootstrap.com/getting-started/)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+* [jQuery](http://api.jquery.com/)
 
 This "book"...
 
