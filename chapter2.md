@@ -10,7 +10,7 @@
 
 * JavaScript is different from Java!
 * Can be placed within ```<head>``` or ```<body>```, ideally before ```</body>```
-* Placing them in a separate file is recommended
+* Recommended to have JS in their own files
 * Case sensitive
 * Semicolons are optional
 * Ignores consecutive whitespaces
@@ -20,39 +20,37 @@
 separate file.js
 ```
 
-## JavaScript Reference:
+#### JavaScript Reference:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 
-### Outputting JS:
+### Outputting JS
 
-alert box: ```window.alert()```
+JS can communicate with you in several ways:
+
+Alert box: ```window.alert()```
 
 HTML output: ```document.write()```
 
 HTML element: ```element.innerHTML()```
 
-browser console: ```console.log()```
+Browser console: ```console.log()```
 
 
-### Comments:
+### Comments
 
-after ```//``` for single-line comments
+Single-line: anything after ```//```
 
-between ```/*``` and ```*/``` for multiple lines
+Multiple lines: between ```/*``` and ```*/```
 
 
-### Common JS Keywords:
-
-```var```: Declares a variable
-
-```function```: Declares a function
-
-```return```: Exits a function
+### Some Common Keywords
 
 ```if ... else```: Marks a block of statements to be executed, depending on a condition
 
 ```for (loop)```: Marks a block of statements to be executed, as long as a condition is true
+
+```var```: Declares a variable
 
 ```do ... while (loop)```: Executes a block of statements, and repeats the block, while a condition is true
 
@@ -62,136 +60,24 @@ between ```/*``` and ```*/``` for multiple lines
 
 ```try ... catch```: Implements error handling to a block of statements
 
+```function```: Declares a function
 
-### Variables:
-
-The Keyword used to declare a variable determines the variable's scope availability.
-
-```
-var x
-let a
-const b
-global c
-```
-
-* Must begin with a letter, an underscore (_), or a dollar sign ($)
-* Subsequent characters may be letters, digits, underscores, or dollar signs
-* Numbers are not allowed as the first character
-* camelCase is the preferred naming convention
-* Can declare multiple variables in a line
-* Can accept default value after ```||``` ("or" operator) if value does not evaluate as true
-
-
-### Data Types:
-
-```
-var length = 11                            // Number
-var lastName = "11"                        // String
-var y = false || true                      // Boolean
-
-var cars = ["Honda", "Toyota", "BMW"]      // Array (object)
-cars[0]                                    // access array entry on index 0
-cars[3] = "Ford"                           // create new array entry on index 3
-cars[5]                                    // cars[4] will be undefined
-delete cars[0]                             // cars[0] will be undefined
-
-var x = {firstName:"John", lastName:"Doe"} // Object
-x.gender = "Male"                          // adding a property
-delete x.gender                            // delete a property
-x["gender"] = "Male"                       // can also use array syntax
-x.fullName = function(){                   // method that returns full name
-  return x.firstName + " " + x.lastName
-}
-
-var u                                      // undefined
-var u = undefined                          // undefined
-
-var func = function () {}                  // Function
-
-*typeof keyword
-
-typeof undefined   // undefined
-typeof null        // object
-null === undefined // false
-null == undefined  // true
-```
-
-#### Exercises:
-
-* Create a calculator in JS
-* Create a calculator in JS without using ```eval```
-
-### Research
-
-#### String methods
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
-
-#### Array methods
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-
-
-### Logic Control
-
-#### Operators:
-
-Assignment (```=```)
-
-Arithmetic (```+```, ```-```, ```*```, ```/```, ```%```, ```++```, ```--```)
-
-* Use + on strings to concatenate
-* Concatenating strings and numbers changes type to string
-
-Comparison (```==```, ```===```, ```!=```, ```!==```, ```<```, ```>```, ```<=```, ```>=```)
-
-Logical (```&&``` for And, ```||``` for Or)
-
-Ternary (```<expression> ? <if true> : <if false>```)
-
-
-### Functions
-
-#### Declaring functions
-
-```
-function func (arguments) {
-  /*
-  do something
-  can also return something
-  */
-  return arguments
-}
-
-function func(){}
-function func () {}
-
-func()
-func(args)
-
-// *Anonymous function
-
-var f = func()
-f()
-
-var f = func() {}
-var f = func(args) {
-  return args
-}
-```
+```return```: Exits a function
 
 #### If... Else Statements:
 
 ```
-if (condition evaluates as true) {
+if (condition or variable evaluates as true) {
   do something
 }
 
-if (condition evaluates as true) {
+if (true) {
   do something
 } else {
   do something else
 }
 
-if (condition evaluates as true) {
+if (condition or variable evaluates as true) {
   do something
 } else if (another condition) {
   do another thing
@@ -212,6 +98,169 @@ for (var i = Array.length; i >= 0; --i) {
 }
 ```
 
+### Variables
+
+The Keyword used to declare a variable determines the variable's scope availability.
+
+```
+var x
+let a
+const b
+```
+
+* Must **begin** with a letter, an underscore (_), or a dollar sign ($)
+* Subsequent characters may be letters, digits, underscores, or dollar signs
+* Numbers are not allowed as the first character
+* camelCase is the preferred naming convention
+* Can declare multiple variables in a line
+* Values are optional
+* Can accept default value after ```||``` ("or" operator) if value does not evaluate as true
+
+```Var``` used to be the only way to declare variables. There are now several ways.
+
+```Let``` allows a variable to "live" within a certain block of code instead of globally
+
+```Const``` is used for read-only values or constants
+
+#### Statements and delarations:
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
+
+### Data Types
+
+* null - has a value but it the value is null
+* undefined - has no assigned value
+* Number
+* String
+* Boolean
+* Array
+* Object
+* Function
+
+```
+var length = 11                            // Number
+var lastName = "11"                        // String
+var y = false || true                      // Boolean
+
+var cars = ["Honda", "Toyota", "BMW"]      // Array (object)
+cars[0]                                    // access array value on index 0
+cars[3] = "Ford"                           // create new array value on index 3
+cars[5]                                    // cars[4] will be undefined
+delete cars[0]                             // cars[0] will be undefined
+
+var x = {firstName:"John", lastName:"Doe"} // Object
+x.gender = "Male"                          // adding a property
+delete x.gender                            // delete a property
+x["gender"] = "Male"                       // can also use array syntax
+x.fullName = function(){                   // method that returns full name
+  return x.firstName + " " + x.lastName
+}
+
+var u                                      // undefined
+var u = undefined                          // undefined
+
+var func = function () {}                  // Function, more about this later
+```
+
+#### Converting strings to numbers
+
+In case of numbers being represented as strings (```"1"``` as opposed to ```1```), JS has methods to convert them back to numbers:
+
+* parseInt() and parseFloat()
+* or use ```+``` 
+
+```
+"1.1" + "1.1" = "1.11.1"
++"1.1" + +"1.1" = 2.2 
+```
+
+### Exercises
+
+* Create a calculator in HTML and JS
+* Create a calculator in HTML and JS without using ```eval```
+
+### Research
+
+#### Strings:
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+#### Numbers:
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+
+#### Arrays:
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+#### Objects:
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+#### Built-in objects:
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+
+
+### Logic Control
+
+#### Operators:
+
+Assignment (```=```)
+
+Arithmetic (```+```, ```-```, ```*```, ```/```, ```%```, ```++```, ```--```)
+
+* Use + on strings to concatenate
+* Concatenating strings and numbers changes type to string
+* The Arithmetic and the Assignment operators can be used in conjunction
+
+Comparison (```==```, ```===```, ```!=```, ```!==```, ```<```, ```>```, ```<=```, ```>=```)
+
+```
+// typeof keyword
+typeof undefined   // undefined
+typeof null        // object
+null === undefined // false
+null == undefined  // true
+```
+
+Logical (```&&``` for And, ```||``` for Or)
+
+Ternary (```<expression> ? <if true> : <if false>```)
+
+#### Expressions and Operators:
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+
+
+### Functions
+
+#### Defining and calling functions
+
+```
+function func () {} // spaces are ignored but make code more readable
+function func(arguments){
+  /*
+  do something
+  can also return something
+  */
+  return arguments
+}
+
+func()     // function "func" is called
+func(args) // with arguments "args"
+
+function () {
+  // I'm an anonymous function
+}
+
+var f = func         // the funcion definition is assigned to the variable
+var f = func()       // contains values returned from func() 
+var f = func() {}    // assigns a function
+var f = func(args) { // returns arguments passed to it
+  return args
+}
+
+f()                  // calls the function
+```
+
+#### Functions:
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+
 ### Exercise: FizzBuzz
 
 Write a function that accepts a number as its parameter
@@ -230,6 +279,7 @@ or print the number if none of the above
 
 #### Output:
 ```
+0
 1
 2
 FIZZ
@@ -358,66 +408,7 @@ Example:
 > https://developer.mozilla.org/en-US/docs/Web/API/Document
 
 
-### Recap:
-
-1. HTML to define the content of web pages
-
-Structuring Page Content with HTML
-
-
-2. CSS to specify the layout of web pages
-
-Styling HTML with CSS
-
-CSS Selectors
-
-Using Bootstrap.css
-
-
-3. JavaScript to program the behavior of web pages
-
-How to use JavaScript
-
-Variables
-
-Logic Control
-
-Interacting with the DOM
-
-
-Exercise:                      1.5 hours
+Exercise:
 
 Create calculator using HTML and JS (immediate evaluation)
 *no eval()
-
-
-## jQuery
-
-* Easy to use JavaScript library
-
-#### jQuery Reference:
-> http://api.jquery.com/
-
-
-Some common jQuery examples:
-
-```
-$().ready()
-$("#selector").parent() // "#selector" refers to an element ID
-$(".selector").val() // ".selector" refers to an element class
-$().hide()
-```
-
-Exercises
-
-Create calculator using HTML and jQuery
-* evaluate after clicking ```=```
-* immediate evaluation, calculates as operators are clicked
-
-
-Exercise
-
-Reverse a string
-Reverse a sentence
-Find the minimum value in a list
-Find the maximum value in a list
