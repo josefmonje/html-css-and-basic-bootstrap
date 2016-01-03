@@ -173,11 +173,6 @@ In case of numbers being represented as strings (```"1"``` as opposed to ```1```
 +"1.1" + +"1.1" = 2.2 
 ```
 
-### Exercises
-
-* Create a calculator in HTML and JS
-* Create a calculator in HTML and JS without using ```eval```
-
 ### Research
 
 #### Strings:
@@ -194,7 +189,6 @@ In case of numbers being represented as strings (```"1"``` as opposed to ```1```
 
 #### Built-in objects:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
-
 
 ### Logic Control
 
@@ -261,7 +255,11 @@ f()                  // calls the function
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
 
-### Exercise: FizzBuzz
+### Exercises
+
+* Create a calculator in HTML and JS
+* Create a calculator in HTML and JS without using ```eval```
+* FizzBuzz
 
 Write a function that accepts a number as its parameter
 
