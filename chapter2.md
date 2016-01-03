@@ -6,6 +6,7 @@ Bootstrap is the most popular HTML, CSS, and JS framework for developing respons
 
 * Why use Bootstrap?
 * How to use Bootstrap
+* Common Bootstrap classes
 
 ### File structure:
 
