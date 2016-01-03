@@ -378,18 +378,18 @@ html/
 >http://getbootstrap.com/css/
 
 
-### Exercises:
+### Exercises
 
 * Create a resume/C.V.
 * Create a better version of an ugly website
 * A better fictitious company website with about, contact, blog, products/services page
 
 
-### Recap:
+### Recap
 
 * Bootstrap is used to make it easier to create decent-looking websites
 * It works by using pre-made CSS classes and applying them to your HTML
 
 
-### Next:
+### Next
 * Learn the basics of JavaScript
