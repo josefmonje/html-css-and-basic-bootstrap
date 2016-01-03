@@ -1,5 +1,9 @@
 ## Bootstrap
 
+Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+
+> http://getbootstrap.com/
+
 ### File structure:
 
 ```
@@ -369,8 +373,7 @@ html/
 
 ### Recap:
 
-* HTML is used to define the structure of the content
-* CSS is used to specify the layout and design of web pages
+* Bootstrap works by using pre-made css classes and applying them to your HTML
 
 Next:
 * JavaScript is used to program the behavior of web pages
