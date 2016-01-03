@@ -360,7 +360,7 @@ html/
 ### Recap
 
 * Bootstrap is used to make it easier to create decent-looking websites
-* It works by using pre-made CSS classes and applying them to your HTML
+* It works by applying pre-made CSS classes to your HTML
 
 
 ### Next
