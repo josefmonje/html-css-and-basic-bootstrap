@@ -375,5 +375,5 @@ html/
 
 * Bootstrap works by using pre-made css classes and applying them to your HTML
 
-Next:
+### Next:
 * JavaScript is used to program the behavior of web pages
