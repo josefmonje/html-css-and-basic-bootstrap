@@ -6,6 +6,7 @@
 * Logic Control
 * Interacting with the DOM
 
+
 ### Scripts
 
 * JavaScript is different from Java!
@@ -19,6 +20,7 @@
 <script></script>
 separate file.js
 ```
+
 
 #### JavaScript Reference:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
@@ -64,6 +66,7 @@ Multiple lines: between ```/*``` and ```*/```
 
 ```return```: Exits a function
 
+
 #### If... Else Statements:
 
 ```
@@ -86,6 +89,7 @@ if (condition or variable evaluates as true) {
 }
 ```
 
+
 #### For Loop:
 
 ```
@@ -97,6 +101,7 @@ for (var i = Array.length; i >= 0; --i) {
   Array[i]
 }
 ```
+
 
 ### Variables
 
@@ -122,8 +127,10 @@ const b
 
 ```Const``` is used for read-only values or constants
 
+
 #### Statements and delarations:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
+
 
 ### Data Types
 
@@ -161,6 +168,7 @@ var u = undefined                          // undefined
 var func = function () {}                  // Function, more about this later
 ```
 
+
 #### Converting strings to numbers
 
 In case of numbers being represented as strings (```"1"``` as opposed to ```1```), JS has methods to convert them back to numbers:
@@ -173,24 +181,32 @@ In case of numbers being represented as strings (```"1"``` as opposed to ```1```
 +"1.1" + +"1.1" = 2.2 
 ```
 
+
 ### Research
+
 
 #### Strings:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
+
 #### Numbers:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+
 
 #### Arrays:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
+
 #### Objects:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
 
 #### Built-in objects:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
+
 ### Logic Control
+
 
 #### Operators:
 
@@ -216,11 +232,13 @@ Logical (```&&``` for And, ```||``` for Or)
 
 Ternary (```<expression> ? <if true> : <if false>```)
 
+
 #### Expressions and Operators:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
 
 
 ### Functions
+
 
 #### Defining and calling functions
 
@@ -251,9 +269,11 @@ var f = func(args) { // returns arguments passed to it
 f()                  // calls the function
 ```
 
+
 #### Functions:
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+
 
 ### Exercises
 
@@ -275,7 +295,9 @@ print FIZZBUZZ! if the number is divisible by both 3 and 5
 
 or print the number if none of the above
 
+
 #### Output:
+
 ```
 0
 1
@@ -294,6 +316,7 @@ FIZZ
 14
 FUZZBUZZ!
 ```
+
 
 ### Interacting with the DOM
 
@@ -319,7 +342,8 @@ window.onload = function () {
 }
 ```
 
-Example:
+
+### Example
 
 ```
 <!DOCTYPE html>
@@ -386,6 +410,7 @@ Example:
 </html>
 ```
 
+
 #### document object
 > https://developer.mozilla.org/en-US/docs/Web/API/Document
 
@@ -396,9 +421,11 @@ Example:
 * Create personal webpage using Bootstrap and at least 3 of its JS components
 * Demonstrate the use of other non-jQuery-related 3rd party JS libraries
 
+
 ### Recap:
 
-* JavaScript is the programming language of the browser
+* JavaScript is the programming language of the web browser
+
 
 ### Next:
 
