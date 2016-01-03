@@ -43,9 +43,9 @@ The text above should be saved into a file with a ".html" extension then viewed 
 ### HTML markup describe **structure** of the content
 
 * Case insensitive
-* A markup <tag> almost always ends with a closing </tag>
-* Only the content of the <body> tag is displayed
-* Some elements require certain attributes: href for links, src for images and scripts
+* A markup ```<tag>``` almost always ends with a closing ```</tag>```
+* Only the content of the ```<body>``` tag is displayed
+* Some elements require certain attributes: ```href``` for links, ```src``` for images and scripts
 * Double quotes are recommended for attribute values
 * Avoid style tags, iframes
 
@@ -92,7 +92,7 @@ a separate file.css
 * Selectors are used to determine which parts of HTML they are applied
 * Contains style values and properties
 * Cascading - styles loaded later override previous styles
-* Measurement units: px, em, rem, %
+* Measurement units: ```px```, ```em```, ```rem```, ```%```
 * Colors: hex, rgb, names
 
 
