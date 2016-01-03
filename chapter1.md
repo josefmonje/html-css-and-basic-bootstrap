@@ -258,3 +258,11 @@ Using HTML and CSS...
 
 #### CSS Diner:
 > https://flukeout.github.io/
+
+### Recap:
+
+* HTML is used to define the structure of the content
+* CSS is used to specify the layout and design of web pages
+
+Next:
+* Learn how to use Bootstrap.css
