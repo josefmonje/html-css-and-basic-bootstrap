@@ -1,3 +1,3 @@
 Basic HTML, CSS and JavaScript
 
-This is for my training classes
+This is written so I can use it in my trainings.
