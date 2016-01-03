@@ -2,7 +2,10 @@
 
 Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
-> http://getbootstrap.com/
+> http://getbootstrap.com/getting-started/
+
+* Why use Bootstrap?
+* How to use Bootstrap
 
 ### File structure:
 
@@ -368,7 +371,7 @@ html/
 
 * Create a resume/C.V.
 * Create a page showcasing any product
-* Create a simple news site/blog linking to your own articles
+* Create a better version of an ugly website
 
 
 ### Recap:
