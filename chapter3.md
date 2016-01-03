@@ -416,7 +416,7 @@ Example:
 
 ### Recap:
 
-* JavaScript lets you actually "program" your page
+* JavaScript is the programming language of the browser
 
 ### Next:
 
