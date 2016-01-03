@@ -4,6 +4,7 @@ Bootstrap is the most popular HTML, CSS, and JS framework for developing respons
 
 > http://getbootstrap.com/getting-started/
 
+* What is Bootstrap?
 * Why use Bootstrap?
 * How to use Bootstrap
 * Common Bootstrap classes
