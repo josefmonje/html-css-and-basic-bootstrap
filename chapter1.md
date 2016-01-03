@@ -98,7 +98,7 @@ a separate file.css
 
 ### Examples
 
-#### Style Element:
+#### Style Element/Tag:
 
 ```
 <!DOCTYPE html>
@@ -130,7 +130,7 @@ a separate file.css
 </html>
 ```
 
-#### Inline:
+#### Inline/Attribute:
 
 ```
 <!DOCTYPE html>
@@ -154,7 +154,7 @@ a separate file.css
 </html>
 ```
 
-#### Linked Stylesheet:
+#### Linked/Stylesheet:
 
 > styles.css
 
