@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [Basic HTML and CSS](chapter1.md)
 * Basic JavaScript
 
