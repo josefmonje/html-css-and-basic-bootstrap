@@ -7,7 +7,6 @@
 * CSS Selectors
 * Using Bootstrap.css
 
-
 ### Minimum valid HTML Example:
 
 This is what a minimum valid HTML looks like:
