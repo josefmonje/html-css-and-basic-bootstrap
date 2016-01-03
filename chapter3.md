@@ -10,7 +10,7 @@
 ### Scripts
 
 * JavaScript is different from Java!
-* Can be placed within ```<head>``` or ```<body>```, ideally before ```</body>```
+* Can be placed within `<head>` or `<body>`, ideally before `</body>`
 * Recommended to have JS in their own files
 * Case sensitive
 * Semicolons are optional
@@ -20,6 +20,7 @@
 <script></script>
 separate file.js
 ```
+> *Two ways of adding JS to HTML*
 
 
 #### JavaScript Reference:
@@ -30,44 +31,38 @@ separate file.js
 
 JS can communicate with you in several ways:
 
-Alert box: ```window.alert()```
+Alert box: `window.alert()`
 
-HTML output: ```document.write()```
+HTML output: `document.write()`
 
-HTML element: ```element.innerHTML()```
+HTML element: `element.innerHTML()`
 
-Browser console: ```console.log()```
+Browser console: `console.log()`
 
 
 ### Comments
 
-Single-line: anything after ```//```
+Single-line: anything after `//`
 
-Multiple lines: between ```/*``` and ```*/```
+Multiple lines: between `/*` and `*/`
 
 
 ### Some Common Keywords
 
-```if ... else```: Marks a block of statements to be executed, depending on a condition
+`if ...else`: Marks a block of statements to be executed, depending on a condition
 
-```for (loop)```: Marks a block of statements to be executed, as long as a condition is true
+`for (loop)`: Marks a block of statements to be executed, as long as a condition is true
 
-```var```: Declares a variable
+`var`: Declares a variable
 
-```do ... while (loop)```: Executes a block of statements, and repeats the block, while a condition is true
+`function`: Declares a function
 
-```break```: Terminates a switch or a loop
+`return`: Exits a function
 
-```continue```: Jumps out of a loop and starts at the top
-
-```try ... catch```: Implements error handling to a block of statements
-
-```function```: Declares a function
-
-```return```: Exits a function
+`try ...catch ...throw`: Implements error handling to a block of statements
 
 
-#### If... Else Statements:
+### Examples
 
 ```
 if (condition or variable evaluates as true) {
@@ -88,9 +83,8 @@ if (condition or variable evaluates as true) {
   do something else
 }
 ```
+> *If ...else Statements*
 
-
-#### For Loop:
 
 ```
 for (var i = 0; i < Array.length; i++) {
@@ -101,6 +95,7 @@ for (var i = Array.length; i >= 0; --i) {
   Array[i]
 }
 ```
+> *For loop*
 
 
 ### Variables
@@ -112,20 +107,22 @@ var x
 let a
 const b
 ```
+> *variable declarations*
 
-* Must **begin** with a letter, an underscore (_), or a dollar sign ($)
+
+* **Must begin** with a letter, an underscore (`_`), or a dollar sign (`$`)
 * Subsequent characters may be letters, digits, underscores, or dollar signs
-* Numbers are not allowed as the first character
-* camelCase is the preferred naming convention
+* Numbers are **not** allowed as the first character
+* **camelCase** is the preferred naming convention
 * Can declare multiple variables in a line
-* Values are optional
-* Can accept default value after ```||``` ("or" operator) if value does not evaluate as true
+* Value assignments not required on declaration
+* Can accept default value after `||` ("or" operator) if value does not evaluate as true
 
-```Var``` used to be the only way to declare variables. There are now several ways.
+`Var` used to be the only way to declare variables. There are now several ways.
 
-```Let``` allows a variable to "live" within a certain block of code instead of globally
+`Let` allows a variable to "live" within a certain block of code instead of globally
 
-```Const``` is used for read-only values or constants
+`Const` is used for read-only values or constants
 
 
 #### Statements and delarations:
@@ -164,23 +161,22 @@ x.fullName = function(){                   // method that returns full name
 
 var u                                      // undefined
 var u = undefined                          // undefined
-
-var func = function () {}                  // Function, more about this later
 ```
+> *Assigning various JS data types to variables*
 
 
 #### Converting strings to numbers
 
-In case of numbers being represented as strings (```"1"``` as opposed to ```1```), JS has methods to convert them back to numbers:
+In case of numbers being represented as strings (`"1"` as opposed to `1`), JS has methods to convert them back to numbers:
 
 * parseInt() and parseFloat()
-* or use ```+``` 
+* or use `+`
 
 ```
 "1.1" + "1.1" = "1.11.1"
 +"1.1" + +"1.1" = 2.2 
 ```
-
+> *Using `+` on numbers with string as their data type*
 
 ### Research
 
@@ -210,15 +206,15 @@ In case of numbers being represented as strings (```"1"``` as opposed to ```1```
 
 #### Operators:
 
-Assignment (```=```)
+Assignment (`=`)
 
-Arithmetic (```+```, ```-```, ```*```, ```/```, ```%```, ```++```, ```--```)
+Arithmetic (`+`, `-`, `*`, `/`, `%`, `++`, `--`)
 
 * Use + on strings to concatenate
 * Concatenating strings and numbers changes type to string
 * The Arithmetic and the Assignment operators can be used in conjunction
 
-Comparison (```==```, ```===```, ```!=```, ```!==```, ```<```, ```>```, ```<=```, ```>=```)
+Comparison (`==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`)
 
 ```
 // typeof keyword
@@ -227,10 +223,11 @@ typeof null        // object
 null === undefined // false
 null == undefined  // true
 ```
+> *Using `typeof`, `==` and `===` to compare `null` and `undefined`*
 
-Logical (```&&``` for And, ```||``` for Or)
+Logical (`&&` for And, `||` for Or)
 
-Ternary (```<expression> ? <if true> : <if false>```)
+Ternary (`<expression> ? <if true> : <if false>`)
 
 
 #### Expressions and Operators:
@@ -268,6 +265,7 @@ var f = func(args) { // returns arguments passed to it
 
 f()                  // calls the function
 ```
+> *Variable assignment and functions*
 
 
 #### Functions:
@@ -277,26 +275,14 @@ f()                  // calls the function
 
 ### Exercises
 
-* Create a calculator in HTML and JS
-* Create a calculator in HTML and JS without using ```eval```
 * FizzBuzz
-
-Write a function that accepts a number as its parameter
-
-The function will loop as many times as that number
-
-The console will:
-
-print FIZZ if the number is divisible by 3
-
-print BUZZ if the number is divisible by 5
-
-print FIZZBUZZ! if the number is divisible by both 3 and 5
-
-or print the number if none of the above
-
-
-#### Output:
+  * Write a function that accepts a number as its parameter
+  * The function will loop as many times as that number
+  * The console will:
+    * print FIZZ if the number is divisible by 3
+    * print BUZZ if the number is divisible by 5
+    * print FIZZBUZZ! if the number is divisible by both 3 and 5
+    * or print the number if none of the above
 
 ```
 0
@@ -316,11 +302,12 @@ FIZZ
 14
 FUZZBUZZ!
 ```
+> *Desired FizzBuzz output*
 
 
-### Interacting with the DOM
+### Interacting with the Document Object Model or DOM
 
-Example code in "vanilla" JavaScript:
+Sample code in "vanilla" JavaScript:
 
 ```
 element = document.getElementById("id")
@@ -341,6 +328,7 @@ window.onload = function () {
   doSomethingElse()
 }
 ```
+> *Selecting and manipulating HTML elements with JS*
 
 
 ### Example
@@ -388,36 +376,48 @@ window.onload = function () {
               <label>Last name:</label> <input type="text" class="form-control" name="lname"><br>
             </div>
             <input type="submit" value="Submit">
-            <button onclick="changeBGWhite()">Click me</button>
+            <button id="button" onclick="changeBGWhite()">Click me</button>
           </form>
         </div>
       </div>
     </div>
 
     <script type="text/javascript">
-    window.onload = function () {
-      changeBGBlue()
-    }
-    function changeBGWhite() {
+
+    var element = document.getElementById("button")
+    element.addEventListener('click', changeBGWhite, false)
+
+    var changeBGWhite = function () {
       document.body.style.backgroundColor = "White"
     }
-    function changeBGBlue() {
+
+    function changeBGBlue () {
       document.body.style.backgroundColor = "blue"
+    }
+
+    window.onload = function () {
+      changeBGBlue()
     }
     </script>
 
   </body>
 </html>
 ```
+> *Changing CSS with JS*
+
+
+### Exercises
+
+* Create a calculator in HTML and JS
+* Create a calculator in HTML and JS without using ```eval```
 
 
 #### document object
 > https://developer.mozilla.org/en-US/docs/Web/API/Document
 
 
-### Exercise
+### Exercises
 
-* Create a color picker to change colors of parts of your calculator page
 * Create personal webpage using Bootstrap and at least 3 of its JS components
 * Demonstrate the use of other non-jQuery-related 3rd party JS libraries
 
