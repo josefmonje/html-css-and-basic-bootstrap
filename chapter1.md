@@ -18,7 +18,7 @@ This is what a minimum valid HTML looks like:
 <title>Hello, world!</title>
 <h1>Hello, world!</h1>
 ```
-* The text above should be saved into a file with a `.html` extension then viewed in a browser.
+> *The text above should be saved into a file with a `.html` extension then viewed in a browser*
 
 Using Hyper Text Markup Language, markup tags or HTML Elements are used to declare that this document is HTML, it has a properly tagged title and has some content.
 
@@ -41,7 +41,7 @@ Using Hyper Text Markup Language, markup tags or HTML Elements are used to decla
   </body>
 </html>
 ```
-* placehold.it is a web service that has an Application Programming Interface or API that lets you use placeholder images for your projects
+> *Placehold.it is a web service that has an Application Programming Interface or API that lets you use placeholder images for your projects*
 
 This example gives us a better idea about what goes into an HTML. Copy and paste it into an empty file and save it as `index.html`.
 
@@ -75,8 +75,7 @@ header, footer, nav
 style
 script
 ```
-
-Try other HTML tags and see how they affect your page.
+> *See how other HTML tags affect your page*
 
 
 ### Research
@@ -107,6 +106,7 @@ Also known as CSS, styles can be applied in 3 different ways:
 <tag style="property: value;">
 a separate file.css
 ```
+> *Different ways of applying style to HTML*
 
 * Style can be in an HTML element, in an attribute, or a separate file
 * Contains style values and properties
@@ -153,7 +153,7 @@ a separate file.css
   </body>
 </html>
 ```
-* Style is defined within an element in the HTML Head
+> *Style is defined within an element in the HTML Head*
 
 
 #### Inline/Attribute:
@@ -179,7 +179,7 @@ a separate file.css
   </body>
 </html>
 ```
-* Style is applied as an attribute in an element
+> *Style is applied as an attribute in an element*
 
 
 #### Linked/Stylesheet:
@@ -233,8 +233,9 @@ a separate file.css
   </body>
 </html>
 ```
-* Style is applied by linked a stylesheet
-* This is the recommended practice
+> *Style is applied by linked a stylesheet*
+
+> *This is the recommended practice*
 
 
 ```
@@ -257,7 +258,7 @@ font-weight
 
 display
 ```
-* Some Common CSS properties:
+> *Some Common CSS properties*
 
 
 ### Research
