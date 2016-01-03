@@ -7,6 +7,7 @@
 * CSS Selectors
 * Using Bootstrap.css
 
+
 ### Minimum valid HTML Example:
 
 This is what a minimum valid HTML looks like:
@@ -65,14 +66,18 @@ script
 
 ### Research
 
+
 ##### HTML5 template:
 > https://html5boilerplate.com/
+
 
 ##### HTML Elements and Attributes:
 > https://developer.mozilla.org/en-US/docs/Web/HTML/Element (recommended)
 
+
 ##### For Search Engines:
 > http://schema.org/
+
 
 ##### For Social Sharing:
 > http://ogp.me/
@@ -97,6 +102,7 @@ a separate file.css
 
 
 ### Examples
+
 
 #### Style Element/Tag:
 
@@ -130,6 +136,7 @@ a separate file.css
 </html>
 ```
 
+
 #### Inline/Attribute:
 
 ```
@@ -153,6 +160,7 @@ a separate file.css
   </body>
 </html>
 ```
+
 
 #### Linked/Stylesheet:
 
@@ -206,6 +214,7 @@ a separate file.css
 </html>
 ```
 
+
 ### Some Common CSS properties:
 
 ```
@@ -229,13 +238,17 @@ font-weight
 display
 ```
 
+
 ### Research
+
 
 #### CSS Property and Value Pairs:
 > https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
+
 #### Shorthand Properties:
 > https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
+
 
 #### CSS Resets
 > http://cssreset.com/
@@ -251,16 +264,20 @@ Using HTML and CSS, Create...
 
 ### Research
 
+
 #### CSS Selectors:
 > https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
+
 
 #### CSS Diner:
 > https://flukeout.github.io/
 
-### Recap:
+
+### Recap
 
 * HTML is used to define the structure of the content
 * CSS is used to specify the layout and design of web pages
 
-Next:
+### Next
+
 * Learn how to use Bootstrap.css
