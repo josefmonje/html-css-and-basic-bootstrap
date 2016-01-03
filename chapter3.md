@@ -415,24 +415,25 @@ window.onload = function () {
 > https://developer.mozilla.org/en-US/docs/Web/API/Document
 
 
-### Exercise:
+### Exercise
 
 * Create a color picker to change colors of parts of your calculator page
 * Create personal webpage using Bootstrap and at least 3 of its JS components
 * Demonstrate the use of other non-jQuery-related 3rd party JS libraries
 
 
-### Recap:
+### Recap
 
 * JavaScript is the programming language of the web browser
 
 
-### Next:
+### Next
 
 * Learn how to use jQuery
 
 
 #### FizzBuzz Solution:
+
 ```
 function FizzBuzz (n){
   for (var i = n; i >= 0; --i) {
