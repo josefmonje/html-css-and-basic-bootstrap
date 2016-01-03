@@ -371,8 +371,8 @@ html/
 ### Exercises
 
 * Create a resume/C.V.
-* Create a page showcasing any product
 * Create a better version of an ugly website
+* A better fictitious company website with about, contact, blog, products/services page
 
 
 ### Recap:
