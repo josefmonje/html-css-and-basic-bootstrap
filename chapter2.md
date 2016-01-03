@@ -410,5 +410,6 @@ Example:
 
 Exercise:
 
-Create calculator using HTML and JS (immediate evaluation)
-*no eval()
+* Create a color picker to change colors of parts of your calculator page
+* Create personal webpage using Bootstrap and at least 3 of its JS components
+* Demonstrate the use of other non-jQuery-related 3rd party JS libraries
