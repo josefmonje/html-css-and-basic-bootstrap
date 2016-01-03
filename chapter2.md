@@ -1,4 +1,4 @@
-## Bootstrap
+# Bootstrap
 
 Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
@@ -8,7 +8,8 @@ Bootstrap is the most popular HTML, CSS, and JS framework for developing respons
 * How to use Bootstrap
 * Common Bootstrap classes
 
-### File structure:
+
+### File structure
 
 ```
 html/
@@ -21,7 +22,8 @@ html/
   └── img/
 ```
 
-### HTML template:
+
+### HTML template
 
 ```
 <!DOCTYPE html>
@@ -40,7 +42,9 @@ html/
 </html>
 ```
 
+
 ### Examples
+
 
 #### HTML with Bootstrap:
 
@@ -95,6 +99,7 @@ html/
   </body>
 </html>
 ```
+
 
 #### Container:
 
@@ -153,6 +158,7 @@ html/
   </body>
 </html>
 ```
+
 
 #### Row with 2-Columns:
 
@@ -219,6 +225,7 @@ html/
   </body>
 </html>
 ```
+
 
 #### Table:
 
@@ -289,6 +296,7 @@ html/
   </body>
 </html>
 ```
+
 
 #### Form:
 
@@ -362,13 +370,15 @@ html/
 </html>
 ```
 
+
 ### Research
+
 
 #### Familiarize yourself with bootstrap
 >http://getbootstrap.com/css/
 
 
-### Exercises
+### Exercises:
 
 * Create a resume/C.V.
 * Create a better version of an ugly website
@@ -379,6 +389,7 @@ html/
 
 * Bootstrap is used to make it easier to create decent-looking websites
 * It works by using pre-made CSS classes and applying them to your HTML
+
 
 ### Next:
 * Learn the basics of JavaScript
