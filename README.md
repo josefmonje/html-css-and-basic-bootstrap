@@ -14,9 +14,10 @@ This was written for those who are completely unfamiliar with the concepts invol
 
 This "book"...
 
-* introduces the concepts of HTML, CSS and JavaScript
-* shows actual code examples
-* provides good online references
-* gives some exercises
+* Introduces the concepts of HTML, CSS and JavaScript
+* Helps to learn commonly used libraries like Bootstrap and jQuery
+* Shows actual code examples
+* Provides good online references
+* Gives some challenging exercises
 
 You can reach me at [@josefmonje](https://twitter.com/josefmonje) for any questions, suggestions or donations ;)
