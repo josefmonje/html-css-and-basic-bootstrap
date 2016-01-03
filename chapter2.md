@@ -8,9 +8,6 @@ Bootstrap is the most popular HTML, CSS, and JS framework for developing respons
 * How to use Bootstrap
 * Common Bootstrap classes
 
-
-### File structure
-
 ```
 html/
   ├── css/
@@ -21,9 +18,7 @@ html/
   │   ├── bootstrap.min.js
   └── img/
 ```
-
-
-### HTML template
+* File structure
 
 ```
 <!DOCTYPE html>
@@ -41,12 +36,10 @@ html/
   </body>
 </html>
 ```
+* Template
 
 
-### Examples
-
-
-#### HTML with Bootstrap:
+#### Examples:
 
 ```
 <!DOCTYPE html>
@@ -99,9 +92,11 @@ html/
   </body>
 </html>
 ```
+* HTML with Bootstrap
+* Already has built-in style
 
 
-#### Container:
+##### Container:
 
 ```
 <!DOCTYPE html>
@@ -158,9 +153,10 @@ html/
   </body>
 </html>
 ```
+* The `container` class
 
 
-#### Row with 2-Columns:
+##### Row with 2-Columns:
 
 ```
 <!DOCTYPE html>
@@ -225,9 +221,10 @@ html/
   </body>
 </html>
 ```
+* `row` and `col-md-6` classes
 
 
-#### Table:
+##### Table:
 
 ```
 <!DOCTYPE html>
@@ -281,14 +278,6 @@ html/
               </tr>
             </table>
           </div>
-        </div>
-
-        <div class="col-md-6">
-          <form action="#" method="get">
-            First name: <input type="text" name="fname"><br>
-            Last name: <input type="text" name="lname"><br>
-            <input type="submit" value="Submit">
-          </form>
         </div>
       </div>
     </div>
@@ -296,9 +285,10 @@ html/
   </body>
 </html>
 ```
+* `table` classes
 
 
-#### Form:
+##### Form:
 
 ```
 <!DOCTYPE html>
@@ -335,25 +325,6 @@ html/
       </div>
 
       <div class="row">
-        <div class="col-md-6">
-          <div>
-            <table class="table table-striped table-hover table-condensed">
-              <tr>
-                <th>Month</th>
-                <th>Savings</th>
-              </tr>
-              <tr>
-                <td>January</td>
-                <td>$100</td>
-              </tr>
-              <tr>
-                <td>February</td>
-                <td>-$100</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-
         <div class="col-md-6">
           <form action="#" method="get">
             <div class="form-group">
@@ -369,6 +340,7 @@ html/
   </body>
 </html>
 ```
+* `form-group` and `form-control` classes
 
 
 ### Research
