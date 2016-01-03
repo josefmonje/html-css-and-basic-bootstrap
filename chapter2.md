@@ -18,7 +18,7 @@ html/
   │   ├── bootstrap.min.js
   └── img/
 ```
-* File structure
+> *File structure*
 
 ```
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ html/
   </body>
 </html>
 ```
-* Template
+> *Template*
 
 
 #### Examples:
@@ -92,8 +92,7 @@ html/
   </body>
 </html>
 ```
-* HTML with Bootstrap
-* Already has built-in style
+> *Plain HTML with Bootstrap*
 
 
 ##### Container:
@@ -153,7 +152,7 @@ html/
   </body>
 </html>
 ```
-* The `container` class
+> *The `container` class*
 
 
 ##### Row with 2-Columns:
@@ -221,7 +220,7 @@ html/
   </body>
 </html>
 ```
-* `row` and `col-md-6` classes
+> *`row` and `col-md-6` classes*
 
 
 ##### Table:
@@ -285,7 +284,7 @@ html/
   </body>
 </html>
 ```
-* `table` classes
+> *`table` classes*
 
 
 ##### Form:
@@ -340,7 +339,7 @@ html/
   </body>
 </html>
 ```
-* `form-group` and `form-control` classes
+> *`form-group` and `form-control` classes*
 
 
 ### Research
