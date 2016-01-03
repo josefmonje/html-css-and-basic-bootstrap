@@ -271,7 +271,7 @@ print FIZZ if the number is divisible by 3
 
 print BUZZ if the number is divisible by 5
 
-print FIZZBUZZ if the number is divisible by both 3 and 5
+print FIZZBUZZ! if the number is divisible by both 3 and 5
 
 or print the number if none of the above
 
@@ -292,24 +292,7 @@ BUZZ
 FIZZ
 13
 14
-FUZZBUZZ
-```
-
-#### Solution:
-```
-function FizzBuzz (n){
-  for (var i = n; i >= 0; --i) {
-    if ((i % 5 == 0) && (i % 3 == 0)) {
-      console.log("FizzBuzz!")
-    } else if (i % 3 == 0) {
-      console.log("Fizz")
-    } else if (i % 5 == 0) {
-      console.log("Buzz")
-    } else {
-      console.log(i)
-    }
-  }
-}
+FUZZBUZZ!
 ```
 
 ### Interacting with the DOM
@@ -386,6 +369,7 @@ Example:
         </div>
       </div>
     </div>
+
     <script type="text/javascript">
     window.onload = function () {
       changeBGBlue()
@@ -419,3 +403,22 @@ Example:
 ### Next:
 
 * Learn how to use jQuery
+
+
+#### FizzBuzz Solution:
+```
+function FizzBuzz (n){
+  for (var i = n; i >= 0; --i) {
+    if ((i % 5 == 0) && (i % 3 == 0)) {
+      console.log("FizzBuzz!")
+    } else if (i % 3 == 0) {
+      console.log("Fizz")
+    } else if (i % 5 == 0) {
+      console.log("Buzz")
+    } else {
+      console.log(i)
+    }
+  }
+}
+```
+
