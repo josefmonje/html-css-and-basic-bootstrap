@@ -373,7 +373,8 @@ html/
 
 ### Recap:
 
-* Bootstrap works by using pre-made css classes and applying them to your HTML
+* Bootstrap is used to make it easier to create decent-looking websites
+* It works by using pre-made CSS classes and applying them to your HTML
 
 ### Next:
 * Learn the basics of JavaScript
