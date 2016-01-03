@@ -243,11 +243,11 @@ display
 
 ### Exercises
 
-Using HTML and CSS...
+Using HTML and CSS, Create...
 
-* Create a resume/C.V.
-* Create a page showcasing any product
-* Create a simple news site/blog linking to your own articles
+* A resume/C.V.
+* A page showcasing any product
+* A fictitious company website with about, contact, blog, products/services page
 
 ### Research
 
