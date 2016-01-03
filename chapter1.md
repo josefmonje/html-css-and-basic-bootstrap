@@ -156,7 +156,7 @@ a separate file.css
 
 #### Linked/Stylesheet:
 
-> styles.css
+> styles.css (in the same folder)
 
 ```
 #block1 {
@@ -167,7 +167,6 @@ a separate file.css
   float: right;
 }
 ```
----
 ```
 <!DOCTYPE html>
 <html>
