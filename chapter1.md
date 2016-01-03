@@ -1,11 +1,12 @@
 # Basic HTML and CSS
 
-* HTML Examples
+Below are a list of topics covered in this chapter:
+
 * What is HTML?
 * Structuring Page Content with HTML
+* What is CSS?
 * Styling HTML with CSS
 * CSS Selectors
-* Using Bootstrap.css
 
 
 ### Minimum valid HTML Example:
@@ -17,8 +18,9 @@ This is what a minimum valid HTML looks like:
 <title>Hello, world!</title>
 <h1>Hello, world!</h1>
 ```
+* The text above should be saved into a file with a `.html` extension then viewed in a browser.
 
-The text above should be saved into a file with a ".html" extension then viewed in a browser.
+Using Hyper Text Markup Language, markup tags or HTML Elements are used to declare that this document is HTML, it has a properly tagged title and has some content.
 
 
 ### Basic HTML Page Example:
@@ -39,16 +41,26 @@ The text above should be saved into a file with a ".html" extension then viewed 
   </body>
 </html>
 ```
+* placehold.it is a web service that has an Application Programming Interface or API that lets you use placeholder images for your projects
+
+This example gives us a better idea about what goes into an HTML. Copy and paste it into an empty file and save it as `index.html`.
 
 
-### HTML markup describe **structure** of the content
+### HTML lets you describe the **structure** of your content
+
+It is...
 
 * Case insensitive
-* A markup ```<tag>``` almost always ends with a closing ```</tag>```
-* Only the content of the ```<body>``` tag is displayed
-* Some elements require certain attributes: ```href``` for links, ```src``` for images and scripts
-* Double quotes are recommended for attribute values
-* Avoid style tags, iframes
+* A markup `<tag>` almost always ends with a closing `</tag>`
+* Only the content and elements within the `<body>` tag is displayed
+* Some HTML elements require certain attributes to work:
+  * `href` for links, `src` for images and scripts
+    * file paths can be relative (to the current file) or fixed
+* "Double quotes" are recommended for use with attribute values
+  - `<element attribute="value">`
+* Avoid iframes and tags that affect style
+  - `center`, `marquee`, etc
+* Meant to be a semantic description of content structure
 
 
 ### Try outputs of various HTML tags:
@@ -60,8 +72,11 @@ ul, ol... li
 b, em, i, s, small, strong, sub, sup, u, marquee
 div, span
 header, footer, nav
+style
 script
 ```
+
+Try other HTML tags and see how they affect your page.
 
 
 ### Research
@@ -72,18 +87,18 @@ script
 
 
 ##### HTML Elements and Attributes:
-> https://developer.mozilla.org/en-US/docs/Web/HTML/Element (recommended)
+> https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 
 ##### For Search Engines:
 > http://schema.org/
 
 
-##### For Social Sharing:
+##### For Sharing in social media:
 > http://ogp.me/
 
 
-## Styles
+## Style
 
 Also known as CSS, styles can be applied in 3 different ways:
 
@@ -93,18 +108,21 @@ Also known as CSS, styles can be applied in 3 different ways:
 a separate file.css
 ```
 
-* Style can be in it's own HTML element, in an attribute (inline), or a separate file
-* Selectors are used to determine which parts of HTML they are applied
+* Style can be in an HTML element, in an attribute, or a separate file
 * Contains style values and properties
 * Cascading - styles loaded later override previous styles
-* Measurement units: ```px```, ```em```, ```rem```, ```%```
-* Colors: hex, rgb, names
+* Measurement units: `px`, `em`, `rem`, `%`
+* Colors:
+  - hexadecimal: `#000000`, or the shorthand `#000`
+  - rgb: `rgb(0,0,0,.5)`
+  - names: `black`
+* Selectors are used in CSS to determine which elements of the HTML are affected (if it's not used inline with an attribute)
 
 
 ### Examples
 
 
-#### Style Element/Tag:
+#### Style Element:
 
 ```
 <!DOCTYPE html>
@@ -135,6 +153,7 @@ a separate file.css
   </body>
 </html>
 ```
+* Style is defined within an element in the HTML Head
 
 
 #### Inline/Attribute:
@@ -160,6 +179,7 @@ a separate file.css
   </body>
 </html>
 ```
+* Style is applied as an attribute in an element
 
 
 #### Linked/Stylesheet:
@@ -213,9 +233,9 @@ a separate file.css
   </body>
 </html>
 ```
+* Style is applied by linked a stylesheet
+* This is the recommended practice
 
-
-### Some Common CSS properties:
 
 ```
 margin
@@ -237,12 +257,13 @@ font-weight
 
 display
 ```
+* Some Common CSS properties:
 
 
 ### Research
 
 
-#### CSS Property and Value Pairs:
+#### CSS Properties and Values:
 > https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 
@@ -261,6 +282,7 @@ Using HTML and CSS, Create...
 * A resume/C.V.
 * A page showcasing any product
 * A fictitious company website with about, contact, blog, products/services page
+
 
 ### Research
 
