@@ -1,6 +1,5 @@
 # Basic HTML, CSS and JavaScript
 
----
 
 I wrote this as material for my trainings. This way, I can also continuously improve it and I also don't have to make one everytime or bring anything with me, for that matter. I'm putting it up on gitbook but I can't to call it a book yet. 
 
