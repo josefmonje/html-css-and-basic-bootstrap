@@ -356,7 +356,7 @@ html/
 Using Bootstrap, create...
 
 * A resume/C.V.
-* Your own versions of the bootstrap examples
+* A recreationn of the bootstrap layout examples
 * A fictitious company website with about, contact, blog, products/services page
 
 ### Recap
