@@ -260,6 +260,12 @@ y == true ? console.log('yes') : console.log('no')
 
 ### Functions
 
+* Functions represent blocks of code
+* May be named or anonymous
+* May or may not accept arguments
+* May or may not return values
+* Can be defined in several ways
+
 
 #### Defining and calling functions:
 
@@ -268,13 +274,14 @@ function func () {} // spaces are ignored but make code more readable
 function func(arguments){
   /*
   do something
+  something = arguments + arguments
   can also return something
   */
-  return arguments
+  return something
 }
 
-func()     // function "func" is called
-func(args) // with arguments "args"
+func()          // function "func" is called
+func(arguments) // with arguments
 
 function () {
   // I'm an anonymous function
@@ -372,41 +379,7 @@ window.onload = function () {
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div>
-            <table id="table" class="table table-striped table-hover table-condensed">
-              <tr>
-                <th>Month</th>
-                <th>Savings</th>
-              </tr>
-              <tr>
-                <td>January</td>
-                <td>$100</td>
-              </tr>
-              <tr>
-                <td>February</td>
-                <td>-$100</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <form id="form" action="#" method="get">
-            <div class="form-group">
-              <label>First name:</label> <input type="text" class="form-control" name="fname"><br>
-              <label>Last name:</label> <input type="text" class="form-control" name="lname"><br>
-            </div>
-            <input type="submit" value="Submit">
-            <button id="button" onclick="changeBGWhite()">Click me</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
     <script type="text/javascript">
-
     var element = document.getElementById("button")
     element.addEventListener('click', changeBGWhite, false)
 
@@ -442,7 +415,7 @@ window.onload = function () {
 ### Exercises
 
 * Create personal webpage using Bootstrap and at least 3 of its JS components
-* Demonstrate the use of other non-jQuery-related 3rd party JS libraries
+* Demonstrate the use of other non-jQuery 3rd party JS libraries
 
 
 ### Recap
