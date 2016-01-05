@@ -1,26 +1,28 @@
 # Basic JavaScript
 
-* What is JavaScript?
-* How to use JavaScript
+* What is [JavaScript](https://en.wikipedia.org/wiki/JavaScript)?
+* How to JavaScript
 * Variables
 * Logic Control
 * Interacting with the DOM
 
-
 ### Scripts
 
-* JavaScript is different from Java!
-* Can be placed within `<head>` or `<body>`, ideally before `</body>`
-* Recommended to have JS in their own files
+JavaScript or JS is the programming language of web browsers. It lets you add behavior and interactivity to your website.
+
+* Can be placed within `<head>` or `<body>`, but ideally before the closing `</body>` tag
 * Case sensitive
-* Semicolons are optional
+* Semicolons at the end of lines are optional
 * Ignores consecutive whitespaces
 
 ```
-<script></script>
+<script>...</script>
+
 separate file.js
 ```
-> *Two ways of adding JS to HTML*
+> *Two ways of adding scripts to HTML*
+
+> *Recommended to have JS in their own files*
 
 
 #### JavaScript Reference:
@@ -29,73 +31,47 @@ separate file.js
 
 ### Outputting JS
 
+Let's JavaScript! There's a JS console in your browser. Find it.
+
 JS can communicate with you in several ways:
 
-Alert box: `window.alert()`
+Alert box: `window.alert('Hello world!')`
 
-HTML output: `document.write()`
+HTML output: `document.write('Hello world!')`
 
-HTML element: `element.innerHTML()`
+HTML element: `element.innerHTML('Hello world!')`
 
-Browser console: `console.log()`
+Browser console: `console.log('Hello world!')`
 
 
 ### Comments
 
+There are two ways of commenting in JS:
+
 Single-line: anything after `//`
 
-Multiple lines: between `/*` and `*/`
+Multiple lines: anything between `/*` and `*/`
 
 
 ### Some Common Keywords
 
-`if ...else`: Marks a block of statements to be executed, depending on a condition
+Keyword dump! Let's stick to these common keywords for now:
 
-`for (loop)`: Marks a block of statements to be executed, as long as a condition is true
+`var` or `let`: Declares a variable
 
-`var`: Declares a variable
+`if (expression) {} [ else [ if ] {} ]`: Depending on a condition, a block of statements may or may not be executed
 
-`function`: Declares a function
+`for ((initialization); (condition); (final-expression)) {}`: For as long as condition is true, a block of statements will be executed. Ihe initialization will be executed at the beginning of the loop. The final-expression is executed at the end of each iteration of the loop.
+
+`function () {}`: Declares a function
 
 `return`: Exits a function
 
-`try ...catch ...throw`: Implements error handling to a block of statements
+`try {} [ catch () ] {} [ finally {} ]`: Implements error handling to a block of statements
 
-
-### Examples
-
-```
-if (condition or variable evaluates as true) {
-  do something
-}
-
-if (true) {
-  do something
-} else {
-  do something else
-}
-
-if (condition or variable evaluates as true) {
-  do something
-} else if (another condition) {
-  do another thing
-} else {
-  do something else
-}
-```
-> *If ...else Statements*
-
-
-```
-for (var i = 0; i < Array.length; i++) {
-  Array[i]
-}
-
-for (var i = Array.length; i >= 0; --i) {
-  Array[i]
-}
-```
-> *For loop*
+* Parentheses represent conditions
+* Curly braces represent a block of code
+* Square braces represent optional parts of the keyword pattern
 
 
 ### Variables
@@ -125,10 +101,6 @@ const b
 `Const` is used for read-only values or constants
 
 
-#### Statements and delarations:
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
-
-
 ### Data Types
 
 * null - has a value but it the value is null
@@ -136,20 +108,14 @@ const b
 * Number
 * String
 * Boolean
-* Array
 * Object
-* Function
+* *Array*
+* *Function*
 
 ```
 var length = 11                            // Number
 var lastName = "11"                        // String
 var y = false || true                      // Boolean
-
-var cars = ["Honda", "Toyota", "BMW"]      // Array (object)
-cars[0]                                    // access array value on index 0
-cars[3] = "Ford"                           // create new array value on index 3
-cars[5]                                    // cars[4] will be undefined
-delete cars[0]                             // cars[0] will be undefined
 
 var x = {firstName:"John", lastName:"Doe"} // Object
 x.gender = "Male"                          // adding a property
@@ -158,6 +124,12 @@ x["gender"] = "Male"                       // can also use array syntax
 x.fullName = function(){                   // method that returns full name
   return x.firstName + " " + x.lastName
 }
+
+var cars = ["Honda", "Toyota", "BMW"]      // Array (object)
+cars[0]                                    // access array value on index 0
+cars[3] = "Ford"                           // create new array value on index 3
+cars[5]                                    // cars[4] will be undefined
+delete cars[0]                             // cars[0] will be undefined
 
 var u                                      // undefined
 var u = undefined                          // undefined
@@ -169,7 +141,7 @@ var u = undefined                          // undefined
 
 In case of numbers being represented as strings (`"1"` as opposed to `1`), JS has methods to convert them back to numbers:
 
-* parseInt() and parseFloat()
+* parseFloat() and parseInt() 
 * or use `+`
 
 ```
@@ -178,27 +150,67 @@ In case of numbers being represented as strings (`"1"` as opposed to `1`), JS ha
 ```
 > *Using `+` on numbers with string as their data type*
 
+### If Statements
+
+```
+if (expression evaluates as true) {
+  doSomething()
+}
+
+if (true) {
+  doSomething()
+} else {
+  doSomethingElse()
+}
+
+if (true) {
+  doSomething()
+} else if (anotherCondition) {
+  doAnotherThing()
+} else {
+  doSomethingElse()
+}
+```
+> *If ...else Statements*
+
+
+```
+for (var i = 0; i < Array.length; i++) {
+  Array[i]
+}
+
+for (var i = Array.length-1; i >= 0; i--) {
+  Array[i]
+}
+```
+> *For loops*
+
+
 ### Research
 
 
 #### Strings:
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 
 #### Numbers:
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
 
 #### Arrays:
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 
 #### Objects:
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 
 #### Built-in objects:
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+
+
+#### Statements and delarations:
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
 
 
 ### Logic Control
@@ -231,7 +243,7 @@ Ternary (`<expression> ? <if true> : <if false>`)
 
 
 #### Expressions and Operators:
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
 
 ### Functions
@@ -269,8 +281,8 @@ f()                  // calls the function
 
 
 #### Functions:
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 
 
 ### Exercises
@@ -412,8 +424,8 @@ window.onload = function () {
 * Create a calculator in HTML and JS without using ```eval```
 
 
-#### document object
-> https://developer.mozilla.org/en-US/docs/Web/API/Document
+#### Document object
+> [https://developer.mozilla.org/en-US/docs/Web/API/Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)
 
 
 ### Exercises
@@ -424,7 +436,8 @@ window.onload = function () {
 
 ### Recap
 
-* JavaScript is the programming language of the web browser
+* JavaScript is the programming language of web browsers.
+* JavaScript lets you add interactivity to your website.
 
 
 ### Next
@@ -449,4 +462,3 @@ function FizzBuzz (n){
   }
 }
 ```
-
