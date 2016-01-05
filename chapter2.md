@@ -363,7 +363,7 @@ Using Bootstrap, create...
 ### Recap
 
 * Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.
-* It works by applying pre-made CSS and JS to your HTML
+* It works by linking to bootstrap and applying its pre-made CSS and JS to your HTML.
 
 
 ### Next
