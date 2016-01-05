@@ -292,7 +292,7 @@ display
 
 ### Exercises
 
-Using HTML and CSS, Create...
+Using HTML and CSS, create...
 
 * A resume/C.V.
 * A page showcasing any product
