@@ -350,15 +350,14 @@ html/
 #### Familiarize yourself with bootstrap:
 > [http://getbootstrap.com/css/](http://getbootstrap.com/css/)
 
-
+> [http://getbootstrap.com/getting-started/#examples](http://getbootstrap.com/getting-started/#examples)
 ### Exercises
 
 Using Bootstrap, create...
 
 * A resume/C.V.
-* A better version of an ugly website
-* A better fictitious company website with about, contact, blog, products/services page
-
+* Your own versions of the bootstrap examples
+* A fictitious company website with about, contact, blog, products/services page
 
 ### Recap
 
