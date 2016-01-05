@@ -43,6 +43,8 @@ HTML element: `element.innerHTML('Hello world!')`
 
 Browser console: `console.log('Hello world!')`
 
+Why? This gives you a quick way of letting you know what's happening in your code.
+
 
 ### Comments
 
@@ -51,6 +53,8 @@ There are two ways of commenting in JS:
 Single-line: anything after `//`
 
 Multiple lines: anything between `/*` and `*/`
+
+Again, why? You wouldn't want to delete stuff right away and type them all over again all the time.
 
 
 ### Some Common Keywords
@@ -69,14 +73,14 @@ Keyword dump! Let's stick to these common keywords for now:
 
 `try {} [ catch () ] {} [ finally {} ]`: Implements error handling to a block of statements
 
-* Parentheses represent conditions
-* Curly braces represent a block of code
-* Square braces represent optional parts of the keyword pattern
+* Parentheses:  expressions
+* Curly braces: block of code
+* Square braces: optional parts of the pattern
 
 
 ### Variables
 
-The Keyword used to declare a variable determines the variable's scope availability.
+The Keyword used to declare a variable determines the variable's availability.
 
 ```
 var x
@@ -85,6 +89,11 @@ const b
 ```
 > *variable declarations*
 
+`Var` used to be the only way to declare variables. There are now several ways.
+
+`Let` allows a variable to "live" within a certain block of code instead of globally
+
+`Const` is used for read-only values or constants
 
 * **Must begin** with a letter, an underscore (`_`), or a dollar sign (`$`)
 * Subsequent characters may be letters, digits, underscores, or dollar signs
@@ -94,23 +103,17 @@ const b
 * Value assignments not required on declaration
 * Can accept default value after `||` ("or" operator) if value does not evaluate as true
 
-`Var` used to be the only way to declare variables. There are now several ways.
-
-`Let` allows a variable to "live" within a certain block of code instead of globally
-
-`Const` is used for read-only values or constants
-
 
 ### Data Types
 
-* null - has a value but it the value is null
-* undefined - has no assigned value
 * Number
 * String
 * Boolean
 * Object
 * *Array*
 * *Function*
+* null - has a value but the value is null
+* undefined - has no assigned value
 
 ```
 var length = 11                            // Number
@@ -232,14 +235,23 @@ Comparison (`==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`)
 // typeof keyword
 typeof undefined   // undefined
 typeof null        // object
-null === undefined // false
-null == undefined  // true
+null == undefined  // true - both have no value assigned
+null === undefined // false - they are not of the same type
 ```
 > *Using `typeof`, `==` and `===` to compare `null` and `undefined`*
 
 Logical (`&&` for And, `||` for Or)
+```
+var y = false || true // Boolean
+y == true
+```
+> *Using `||` in variable assignments*
 
-Ternary (`<expression> ? <if true> : <if false>`)
+Ternary (`(expression) ? (if true) : (if false)`)
+```
+y == true ? console.log('yes') : console.log('no')
+```
+> *Example using a ternary operator*
 
 
 #### Expressions and Operators:
@@ -249,7 +261,7 @@ Ternary (`<expression> ? <if true> : <if false>`)
 ### Functions
 
 
-#### Defining and calling functions
+#### Defining and calling functions:
 
 ```
 function func () {} // spaces are ignored but make code more readable
@@ -268,13 +280,12 @@ function () {
   // I'm an anonymous function
 }
 
-var f = func         // the funcion definition is assigned to the variable
 var f = func()       // contains values returned from func() 
 var f = func() {}    // assigns a function
-var f = func(args) { // returns arguments passed to it
+var f = func(args) { // assigns a function returns arguments passed to it
   return args
 }
-
+var f = func         // the function definition is assigned
 f()                  // calls the function
 ```
 > *Variable assignment and functions*
