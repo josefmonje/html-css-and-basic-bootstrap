@@ -307,7 +307,7 @@ Using HTML and CSS, create...
 
 
 #### CSS Diner:
-> [https://flukeout.github.io/](https://flukeout.github.io/)
+> [https://josefmonje.com/restaurant/](https://josefmonje.com/restaurant/)
 
 
 ### Recap
