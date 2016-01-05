@@ -1,7 +1,7 @@
 # Basic HTML, CSS and JavaScript
 
 
-I wrote this as material for my trainings. This way, I can also continuously improve it and I also don't have to bring anything with me during training. I'm putting it up on gitbook but I can't to call it a book yet. 
+I wrote this to consolidate my materials in my trainings. This way, I can also continuously improve it and I also don't have to bring anything with me. I'm putting it up on gitbook but I can't to call it a book yet. 
 
 This was written for those who are completely unfamiliar with the concepts involved in creating web pages. It's made to be as succinct as possible. If you're looking for a complete reference for each topic, the recommended places for each are:
 
