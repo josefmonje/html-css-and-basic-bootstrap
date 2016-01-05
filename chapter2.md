@@ -1,13 +1,14 @@
 # Bootstrap
 
-Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
-
-> http://getbootstrap.com/getting-started/
-
 * What is Bootstrap?
 * Why use Bootstrap?
 * How to use Bootstrap
 * Common Bootstrap classes
+
+Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+
+> [http://getbootstrap.com/getting-started/](http://getbootstrap.com/getting-started/)
+
 
 ```
 html/
@@ -346,21 +347,23 @@ html/
 ### Research
 
 
-#### Familiarize yourself with bootstrap
->http://getbootstrap.com/css/
+#### Familiarize yourself with bootstrap:
+> [http://getbootstrap.com/css/](http://getbootstrap.com/css/)
 
 
 ### Exercises
 
-* Create a resume/C.V.
-* Create a better version of an ugly website
+Using Bootstrap, create...
+
+* A resume/C.V.
+* A better version of an ugly website
 * A better fictitious company website with about, contact, blog, products/services page
 
 
 ### Recap
 
-* Bootstrap is used to make it easier to create decent-looking websites
-* It works by applying pre-made CSS classes to your HTML
+* Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.
+* It works by applying pre-made CSS and JS to your HTML
 
 
 ### Next
