@@ -295,7 +295,7 @@ display
 Using HTML and CSS, create...
 
 * A resume/C.V.
-* A page showcasing any product
+* A page showcasing an imaginary product you might want
 * A fictitious company website with about, contact, blog, products/services page
 
 
