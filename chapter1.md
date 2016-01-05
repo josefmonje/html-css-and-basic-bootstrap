@@ -20,7 +20,7 @@ This is what a minimum valid HTML looks like:
 ```
 > *The text above should be saved into a file with a `.html` extension then viewed in a browser*
 
-Using Hyper Text Markup Language, markup tags or HTML Elements are used to declare that this document is HTML, it has a properly tagged title and has some content.
+Using Hyper Text Markup Language or HTML, markup tags or HTML Elements are used to declare that this document is HTML, it has a properly tagged title and has some content.
 
 
 ### Basic HTML Page Example:
