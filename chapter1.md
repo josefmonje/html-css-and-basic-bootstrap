@@ -313,8 +313,8 @@ Using HTML and CSS, create...
 ### Recap
 
 * HTML is used to define the structure of the content
-* CSS is used to specify the layout and design of web pages
+* CSS is used to specify the layout and design of websites
 
 ### Next
 
-* Learn how Bootstrap.css makes css easy
+* Learn how Bootstrap.css makes styling websites easy
