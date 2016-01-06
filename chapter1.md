@@ -1,6 +1,6 @@
 # Basic HTML and CSS
 
-Below are a list of topics covered in this chapter:
+In this chapter, you'll learn how to build web pages:
 
 * What is [HTML](http://www.w3.org/TR/html401/)?
 * Structuring Page Content with HTML
@@ -9,7 +9,7 @@ Below are a list of topics covered in this chapter:
 * CSS Selectors
 
 
-### Minimum valid HTML Example:
+### Minimum valid HTML:
 
 This is what a minimum [valid](https://validator.w3.org/nu/#textarea) HTML looks like:
 
@@ -20,7 +20,7 @@ Hello, world!
 ```
 > *The text above should be saved into a file with a `.html` extension then viewed in a browser*
 
-Using Hyper Text Markup Language or HTML, markup tags in the form of **HTML Elements** are used to semantically declare to a browser how to interpret specific text content. HTML files are just text files.
+Using Hyper Text Markup Language or HTML, markup tags in the form of **HTML Elements** are used to semantically declare to a browser how to interpret specific text content. HTML files are **just text** files.
 
 ```
 <a href="#" title="click here!">This is a link</a>
@@ -32,7 +32,7 @@ Using Hyper Text Markup Language or HTML, markup tags in the form of **HTML Elem
 
 HTML Elements can contain additional info using **HTML Attributes**. These attributes come as a pair of names and values.
 
-### Complete Basic HTML Page Example:
+### Basic HTML Page Example:
 
 ```
 <!DOCTYPE html>
@@ -57,11 +57,10 @@ This example gives us a better idea about what goes into an HTML. It's complete 
 
 ### HTML lets you describe the **structure** of your content
 
-It is...
-
+* Meant to be a semantic description of content
 * Case insensitive
 * A markup `<tag>` almost always ends with a closing `</tag>`
-* If supplied, only the content and elements within the `<body>` tag is displayed
+* Only the content and elements within the `<body>` tag is displayed
 * Some HTML elements require certain attributes to work as expected:
   * `href` for links, `src` for images and scripts
     * file paths can be relative (to the current file) or fixed (has "http...")
@@ -69,10 +68,9 @@ It is...
   * `<element attribute="value">`
 * Avoid iframes and tags that affect style. Styling should be done in CSS.
   * `<iframe>`, `<center>`, `<marquee>`, etc
-* Meant to be a semantic description of content
 
 
-### Exercise:
+### Some HTML Elements:
 
 ```
 div, span
