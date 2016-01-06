@@ -70,7 +70,7 @@ This example gives us a better idea about what goes into an HTML. It's complete 
   * `<iframe>`, `<center>`, `<marquee>`, etc
 
 
-### Some HTML Elements:
+### Common HTML Elements:
 
 ```
 div, span
@@ -253,7 +253,7 @@ a separate file.css
 > *This is the recommended practice*
 
 
-### Exercise:
+### Common CSS Properties:
 
 ```
 margin
