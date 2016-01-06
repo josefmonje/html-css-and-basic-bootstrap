@@ -1,3 +1,12 @@
+# CSS
+
+In this chapter, you'll learn how to add style in your web pages:
+
+* What is [CSS](http://www.w3.org/Style/CSS/)?
+* Styling HTML with CSS
+* CSS Selectors
+
+
 ## Style
 
 Also known as Cascading Style Sheets or CSS, styles can be applied in 3 different ways:
@@ -166,6 +175,8 @@ display
 ```
 > *Try some Common CSS properties and see how they affect your page*
 
+At this point it's just knowing what CSS properties are available for you to adjust.
+
 
 ### Research
 
@@ -204,8 +215,9 @@ Using HTML and CSS, create...
 
 ### Recap
 
-* HTML is used to define the structure of the content
 * CSS is used to specify the layout and design of websites
+* CSS Selectors are used in CSS to target HTML elements
+
 
 ### Next
 
