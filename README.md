@@ -1,12 +1,12 @@
-# Basic HTML, CSS and JavaScript
+# HTML, CSS, and Basic Bootstrap
 
 
 I wrote this to consolidate my materials for my trainings. I'm putting it up on gitbook but I can't to call it a book yet. This way, I can continuously improve it together with my readers and it makes it convenient for me to just refer to.
 
 This "book"...
 
-* Introduces the concepts of HTML, CSS and JavaScript
-* Helps to learn commonly used libraries like Bootstrap and jQuery
+* Introduces the concepts of HTML and CSS
+* Learn the popular front-end framework Bootstrap
 * Shows actual code examples
 * Gives some challenging exercises
 * Provides good online references
@@ -16,15 +16,13 @@ This was written for those who are completely unfamiliar with the things involve
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML?redirectlocale=en-US&redirectslug=HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?redirectlocale=en-US&redirectslug=CSS)
 * [Bootstrap](http://getbootstrap.com/getting-started/)
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
-* [jQuery](http://api.jquery.com/)
 
 Before reading, there are a few simple requirements. You must know how to:
 
 * Search for stuff online
 * Use a text editor
 
-If this is something you're really pursuing, you'll seriously be doing a lot of searching. An error? How to do something? You'll end up in [Stack Overflow](http://stackoverflow.com/) a lot.
+If this is something you're really pursuing, you'll seriously be doing a lot of searching. An error? How to do something? You'll likely end up in [Stack Overflow](http://stackoverflow.com/) a lot.
 
 It helps to have a good editor with autocompletion. I personally prefer [Sublime Text 3](http://www.sublimetext.com/3) or [Atom](https://atom.io/).
 
@@ -40,7 +38,7 @@ I not only encourage you, I compel you to interact with the examples and do the 
 After reading, you're expected to be able to:
 
 * Understand soure codes of webpages
-* Create and modify HTML, CSS and JS to a certain extent
+* Create and modify HTML and CSS to a certain extent
 * Find solutions on your own
 
 You can reach me at [@josefmonje](https://twitter.com/josefmonje) for any questions, suggestions or donations ;)
