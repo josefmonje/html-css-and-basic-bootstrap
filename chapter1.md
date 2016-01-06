@@ -1,12 +1,9 @@
-# Basic HTML and CSS
+# HTML
 
 In this chapter, you'll learn how to build web pages:
 
 * What is [HTML](http://www.w3.org/TR/html401/)?
 * Structuring Page Content with HTML
-* What is CSS?
-* Styling HTML with CSS
-* CSS Selectors
 
 
 ### Minimum valid HTML:
