@@ -5,7 +5,6 @@ In this chapter, you'll learn enough to start working with bootstrap:
 * What is Bootstrap?
 * Why use Bootstrap?
 * How to use Bootstrap
-* Common Bootstrap classes
 
 Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
@@ -349,6 +348,24 @@ html/
 ```
 > *`form-group` and `form-control` classes*
 
+
+#### Common Bootstrap Classes:
+
+```
+container
+row
+col-??-?
+
+table*
+
+form-group
+form-control
+form*
+
+btn*
+
+img*
+```
 
 ### Research
 
