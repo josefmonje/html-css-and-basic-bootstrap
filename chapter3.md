@@ -406,6 +406,7 @@ window.onload = function () {
 * Create a calculator in HTML and JS
 * Create a calculator in HTML and JS without using ```eval```
 
+While starting out, you'll likely encouter errors. Read them and try to understand what it says. Read you code and check if you see what's wrong. Search for it online - you're not the first one to encounter it. The answer is out there.
 
 #### Document object
 > [https://developer.mozilla.org/en-US/docs/Web/API/Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)
