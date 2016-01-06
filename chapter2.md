@@ -20,14 +20,15 @@ a separate file.css
 > *Different ways of applying style to HTML*
 
 * Style can be in an HTML element, in an attribute, or a separate file
-* Contains style values and properties
-* Cascading - styles loaded later override previous styles
+* Contains values and properties
+* Order is important: Styles loaded later overwrite previous styles (Cascading)
 * Measurement units: `px`, `em`, `rem`, `%`
 * Colors:
   - hexadecimal: `#000000`, or the shorthand `#000`
   - rgb: `rgb(0,0,0,.5)`
   - names: `black`
 * Selectors are used in CSS to determine which elements of the HTML are affected (if it's not used inline with an attribute)
+* CSS is case-insensitive, but class and ID names defined in HTML are considered case-sensitive 
 
 
 ### Examples
@@ -67,6 +68,7 @@ a separate file.css
 
 > *Lines of CSS property-value pairs **end with a semicolon** `;`*
 
+
 #### Inline/Attribute:
 
 ```
@@ -93,7 +95,6 @@ a separate file.css
 
 
 #### Linked/Stylesheet:
-
 
 ```
 #block1 {
@@ -174,7 +175,9 @@ display
 ```
 > *Try some Common CSS properties and see how they affect your page*
 
-At this point it's just knowing what CSS properties are available for you to adjust.
+At this point it's just a matter of knowing what CSS properties are available for you to play with and the values they accept.
+
+Inspecting the source code of websites you visit and try to copy the design of your favorite sites. You'll learn a lot! You'll discover why I included the next chapter in this book.
 
 
 ### Research
