@@ -71,20 +71,20 @@ This example gives us a better idea about what goes into an HTML. It contains mo
 ### Common HTML Elements:
 
 ```
-div, span
+<div></div>, <span></span>
 
-h2... h6
+<h1></h1>...<h6></h6>
 
-br, hr
+<br />, <hr />
 
-ul/ol... li
+<ul>/<ol>... <li>...
 
-header, footer, nav
+<header>, <footer>, <nav>
 
-pre, em, b, i, s, small, strong, sub, sup, marquee
+<pre>, <em>, <b>, <i>, <s>, <small>, <strong>, <sub>, <sup>, <marquee>
 
-style
-script
+<style>
+<script>
 ```
 > *Try outputs of various HTML tags and see how they affect your page*
 
@@ -93,8 +93,9 @@ At this point it's just a matter of knowing what HTML elements and attributes ar
 
 From now on, whenever you visit a website, try viewing the source. Try it on [one](https://duckduckgo.com/) [of](https://www.tumblr.com/) [these](https://twitter.com/josefmonje) [sites](https://josefmonje.com/#/)!
 
-There are more things to learn but right now you have everything you need to know to build websites on your own.
+There are more things to learn but right now you have everything you need to know to create HTML pages on your own. Simple, right?
 
+But that's not enough. We want our page to look good! That's next.
 
 ### Research:
 
