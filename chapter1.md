@@ -74,11 +74,17 @@ This example gives us a better idea about what goes into an HTML. It's complete 
 
 ```
 div, span
+
 h2... h6
+
 br, hr
+
 ul/ol... li
+
 header, footer, nav
+
 pre, em, b, i, s, small, strong, sub, sup, marquee
+
 style
 script
 ```
