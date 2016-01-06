@@ -12,9 +12,9 @@ Bootstrap is the most popular HTML, CSS, and JS framework for developing respons
 
 > [http://getbootstrap.com/getting-started/](http://getbootstrap.com/getting-started/)
 
-By this point I assume you can create HTML and apply CSS to it. With enough practice you'll realize what's hard about it.
+By this point I assume you can create HTML with CSS. With enough practice you'll realize what's hard about it.
 
-CSS can be tedious so Bootstrap takes care of most of the things you need to make a good-looking site.
+CSS can get tedious so a front-end CSS framework like Bootstrap takes care of most of the things you need to make a good-looking site.
 
 ```
 html/
@@ -50,6 +50,8 @@ html/
 
 #### How to use Bootstrap:
 
+Copy and paste each example to an empty text file and save them as HTML. Once you've done that, open it in your browser to see what happens.
+
 ```
 <!DOCTYPE html>
 <html>
@@ -60,15 +62,7 @@ html/
 
     <!-- Bootstrap files: -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" -->
   </head>
 
   <body>
@@ -101,7 +95,9 @@ html/
   </body>
 </html>
 ```
-> *Plain HTML with Bootstrap*
+> *Plain HTML ~~with Bootstrap~~*
+
+Just including Bootstrap in your HTML already makes a difference. You have to uncomment it and see how it changes.
 
 
 ##### Container:
@@ -117,14 +113,6 @@ html/
     <!-- Bootstrap files: -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -177,14 +165,6 @@ html/
     <!-- Bootstrap files: -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -245,14 +225,6 @@ html/
     <!-- Bootstrap files: -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -309,14 +281,6 @@ html/
     <!-- Bootstrap files: -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -370,6 +334,13 @@ img*
 ```
 > *Try some common Bootstrap classes and see how they affect your CSS*
 
+That's how Bootstrap works. Instead of painstakingly writing all CSS from scratch, it has already written them for you. And it's probably better than what you an come up with right now. There are even commonly used components complete with JavaScript. But we'll have another book for that.
+
+Here are also some alternatives you may want to look at:
+* Zurb's [Foundation](http://foundation.zurb.com/)
+* GitHub's [Primer](http://primercss.io/)
+* Yahoo's [PureCSS](http://purecss.io/)
+
 
 ### Research
 
@@ -379,15 +350,16 @@ img*
 
 > [http://getbootstrap.com/getting-started/#examples](http://getbootstrap.com/getting-started/#examples)
 
+
 ### Exercises
 
-Using Bootstrap, create...
+Using Bootstrap or another framework, create...
 
 * A resume/C.V.
-* A recreationn of the bootstrap layout examples
 * A fictitious company website with about, contact, blog, products/services
 
-Based on the examples in the Bootstrap websites, identify new terms related to bootstrap and website design.
+Make it pretty!
+
 
 ### Recap
 
