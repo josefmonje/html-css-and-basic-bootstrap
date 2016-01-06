@@ -366,6 +366,8 @@ btn*
 
 img*
 ```
+> *Try some common Bootstrap classes and see how they affect your CSS*
+
 
 ### Research
 
