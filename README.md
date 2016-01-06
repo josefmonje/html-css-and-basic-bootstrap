@@ -1,7 +1,7 @@
 # HTML, CSS, and Basic Bootstrap
 
 
-I wrote this to consolidate my materials for my trainings. I'm putting it up on gitbook but I can't to call it a book yet. This way, I can continuously improve it together with my readers and it makes it convenient for me to just refer to.
+I wrote this to consolidate my materials for my trainings. I'm putting it up on gitbook but I can't to call it a book yet. This makes for a convenient reference and I can continuously improve it together with my readers.
 
 This "book"...
 
