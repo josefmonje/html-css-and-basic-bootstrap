@@ -91,9 +91,11 @@ script
 At this point it's just a matter of knowing what HTML elements and attributes are available for you to use. There are a few but some of them aren't commonly used.
 
 
-From now on, whenever you visit a website, try viewing the source. Try it on [one](https://duckduckgo.com/) [of](https://www.tumblr.com/) [these](https://josefmonje.com/#/) sites!
+From now on, whenever you visit a website, try viewing the source. Try it on [one](https://duckduckgo.com/) [of](https://www.tumblr.com/) [these](https://twitter.com/josefmonje) [sites](https://josefmonje.com/#/)!
 
-https://duckduckgo.com/
+There are more things to learn but right now you have everything you need to know to build websites on your own.
+
+
 ### Research:
 
 
@@ -115,9 +117,11 @@ https://duckduckgo.com/
 
 ### Recap
 
-* HTML is used to define the structure of the content
-* CSS is used to specify the layout and design of websites
+* HTML is used to define the structure of a page
+* HTML Elements are used to tag content
+* HTML Attributes provide further information about Elements
+
 
 ### Next
 
-* Learn how Bootstrap.css makes styling websites easy
+* Learn how to style websites with CSS
