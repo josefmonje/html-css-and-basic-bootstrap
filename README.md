@@ -24,12 +24,18 @@ Before reading, there are a few simple requirements. You must know how to:
 * Search for stuff online
 * Use a text editor
 
+If this is something you're really pursuing, you'll seriously be doing a lot of searching. An error? How to do something? You'll end up in [Stack Overflow](http://stackoverflow.com/) a lot.
+
+It helps to have a good editor with autocompletion. I personally prefer [Sublime Text 3](http://www.sublimetext.com/3) or [Atom](https://atom.io/).
+
 While reading, the process will include:
 
 * Introducing the idea
 * Showing some code
 * Doing some exercise
 * Providing references online for further research
+
+I not only encourage you, I compel you to interact with the examples and do the exercises!
 
 After reading, you're expected to be able to:
 
