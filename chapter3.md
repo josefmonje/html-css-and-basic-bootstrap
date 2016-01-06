@@ -31,9 +31,7 @@ separate file.js
 
 ### Outputting JS
 
-Let's JavaScript! There's a JS console in your browser. Find it.
-
-JS can communicate with you in several ways:
+Let's JavaScript! There's a JS console in your browser. Find it. Let's see how JS can communicate with us in several ways:
 
 Alert box: `window.alert('Hello world!')`
 
@@ -54,7 +52,8 @@ Single-line: anything after `//`
 
 Multiple lines: anything between `/*` and `*/`
 
-Again, why? You wouldn't want to delete stuff right away and type them all over again all the time.
+Again, why? You wouldn't want to delete stuff right away and type them all over again all the time. Comments let us do that with little effort. Eventually when you're writing more complex code, comments would help the reader.
+
 
 
 ### Some Common Keywords
