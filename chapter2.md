@@ -4,7 +4,6 @@ In this chapter, you'll learn how to add style in your web pages:
 
 * What is [CSS](http://www.w3.org/Style/CSS/)?
 * Styling HTML with CSS
-* CSS Selectors
 
 
 ## Style
@@ -217,6 +216,7 @@ Using HTML and CSS, create...
 
 * CSS is used to specify the layout and design of websites
 * CSS Selectors are used in CSS to target HTML elements
+* CSS has many properties and values available to help realize designs
 
 
 ### Next
