@@ -11,8 +11,9 @@ Bootstrap is the most popular HTML, CSS, and JS framework for developing respons
 
 > [http://getbootstrap.com/getting-started/](http://getbootstrap.com/getting-started/)
 
-CSS can be tedious so Bootstrap takes care of most of the things you need to make a good-looking site.
+By this point I assume you can create HTML and apply CSS to it. With enough practice you'll realize what's hard about it.
 
+CSS can be tedious so Bootstrap takes care of most of the things you need to make a good-looking site.
 
 ```
 html/
@@ -363,7 +364,9 @@ Using Bootstrap, create...
 
 * A resume/C.V.
 * A recreationn of the bootstrap layout examples
-* A fictitious company website with about, contact, blog, products/services page
+* A fictitious company website with about, contact, blog, products/services
+
+Based on the examples in the Bootstrap websites, identify new terms related to bootstrap and website design.
 
 ### Recap
 
