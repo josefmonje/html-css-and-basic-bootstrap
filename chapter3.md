@@ -363,10 +363,5 @@ Make it pretty!
 
 ### Recap
 
-* Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.
-* It works by linking to bootstrap and applying its pre-made CSS and JS to your HTML.
-
-
-### Next
-
-* Learn the basics of JavaScript
+* Front-end frameworks like bootstrap make it easier to create beautiful websites
+* They work by applying its pre-made CSS to your HTML
