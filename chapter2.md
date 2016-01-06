@@ -1,5 +1,7 @@
 # Bootstrap
 
+In this chapter, you'll learn enough to start working with bootstrap:
+
 * What is Bootstrap?
 * Why use Bootstrap?
 * How to use Bootstrap
@@ -8,6 +10,8 @@
 Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
 > [http://getbootstrap.com/getting-started/](http://getbootstrap.com/getting-started/)
+
+CSS can be tedious so Bootstrap takes care of most of the things you need to make a good-looking site.
 
 
 ```
@@ -20,7 +24,8 @@ html/
   │   ├── bootstrap.min.js
   └── img/
 ```
-> *File structure*
+> *Organizing your files*
+
 
 ```
 <!DOCTYPE html>
@@ -38,10 +43,10 @@ html/
   </body>
 </html>
 ```
-> *Template*
+> *Including Bootstrap in your HTML*
 
 
-#### Examples:
+#### How to use Bootstrap:
 
 ```
 <!DOCTYPE html>
@@ -347,10 +352,11 @@ html/
 ### Research
 
 
-#### Familiarize yourself with bootstrap:
+#### Familiarize yourself with Bootstrap:
 > [http://getbootstrap.com/css/](http://getbootstrap.com/css/)
 
 > [http://getbootstrap.com/getting-started/#examples](http://getbootstrap.com/getting-started/#examples)
+
 ### Exercises
 
 Using Bootstrap, create...
